@@ -1,6 +1,6 @@
-var input = document.getElementById("userinput");
-var button = document.getElementById("enter");
-var ul = document.querySelector("ul");
+const input = document.getElementById("userinput");
+const button = document.getElementById("enter");
+const ul = document.querySelector("ul");
 
 function toggle(){
         li.addEventListener("click", function(){
@@ -13,8 +13,8 @@ function inputLength(){
 }
 
 function addNewItem(){
-    var li = document.createElement("li");
-    var btnRm = document.createElement("button");
+    const li = document.createElement("li");
+    const btnRm = document.createElement("button");
     
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
